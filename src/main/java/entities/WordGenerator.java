@@ -1,5 +1,7 @@
 package entities;
+import lombok.*;
 
+@Data
 public class WordGenerator {
     private static final String[] _word = {"JAVA", "CESI", "UTOPIOS", "EXAMEN","DEVELOPPEMENT"};
 
